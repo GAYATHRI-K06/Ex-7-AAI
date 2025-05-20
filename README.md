@@ -1,22 +1,35 @@
-<H3>ENTER YOUR NAME:GAYATHRI K</H3>
-<H3>ENTER YOUR REGISTER NO.212223230061</H3>
-<H3>EX. NO.7</H3>
+<H3>NAME: GAYATHRI K</H3>
+<H3>REGISTER NO: 212223230061</H3>
+<H3>EX NO: 7</H3>
 <H1 ALIGN =CENTER>Implementation of Text  Summarization</H1>
-<H3>Aim: to perform automatic text summarization using Natural Language Processing (NLP) techniques. </H3> 
- <BR>
+
+<h3>AIM : </h3>  
+
+To perform automatic text summarization using Natural Language Processing (NLP) techniques.
+
+---
 <h3>Algorithm:</h3>
-Step 1 Import necessary libraries for natural language processing tasks.<BR>
-Step 2: Download NLTK resources, including the punkt tokenizer and stopwords.<BR>
-Step 3: Define Text Preprocessing Function to tokenize, remove stopwords, and perform stemming.<BR>
-Step 4: Define the Text Summarization Function using a simple frequency-based approach.<br>
-    - Calculate the frequency of each word in the preprocessed text.<br>
-    - Calculate a score for each sentence based on the sum of word frequencies.<br>
-    - Select the top N sentences with the highest scores to form the summary.<br>
-Step 5: Construct the main program to read the paragraph  and perform text summarization<br>
-      - Generate and print the original text.<br>
-      - Generate and print the text summary using the  Text Summarization function<br>
-<H3>Program:</H3>
-```````
+
+> **Step 1**:  Import necessary libraries for natural language processing tasks.<BR>
+
+> **Step 2**: Download NLTK resources, including the punkt tokenizer and stopwords.<BR>
+
+> **Step 3**: Define Text Preprocessing Function to tokenize, remove stopwords, and perform stemming.<BR>
+
+> **Step 4**: Define the Text Summarization Function using a simple frequency-based approach.<br>
+
+    - Calculate the frequency of each word in the preprocessed text.
+    - Calculate a score for each sentence based on the sum of word frequencies.
+    - Select the top N sentences with the highest scores to form the summary.
+
+> **Step 5**: Construct the main program to read the paragraph  and perform text summarization<br>
+
+      - Generate and print the original text.
+      - Generate and print the text summary using the  Text Summarization function
+
+---
+## Program:
+```py
 !pip install nltk
 import nltk
 from nltk.corpus import stopwords
@@ -67,14 +80,16 @@ print("Origina1 Text: ")
 print (input_text )
 print( " \nSummary : " )
 print(summary)
-```````
+```
+
+---
 
 ## Output
 
-![image](https://github.com/user-attachments/assets/046b0308-32f1-4f29-8bec-cf37e0ceb382)
+<img src="https://github.com/user-attachments/assets/477f415f-ec8e-4959-b3dc-9cf9e0098811">
 
-
-<H3>Result:</H3>
+---
+## Result:
 Thus ,the program to perform the Text summarization is executed sucessfully.
 
 
